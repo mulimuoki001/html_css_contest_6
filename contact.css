@@ -6,7 +6,7 @@
 }
 body {
     font-family: Arial, sans-serif;
-    
+    background-color: rgb(52, 141, 135);
     
   }
   .menu{
@@ -33,10 +33,13 @@ body {
   .menu a{
     color: white;
   }
-  a.active,a:hover{
+  a.active{
     color: rgb(83, 200, 221);
     transition: .5s;
   
+  }
+  a:hover{
+    color: rgb(25, 235, 182);
   }
   
   
@@ -67,7 +70,8 @@ body {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    top: 10px;
+    top: 20px;
+    text-align: center;
   }
   
   label {

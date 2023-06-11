@@ -7,6 +7,51 @@ body{
   font-family: Arial;
   line-height: 1.7em;
 }
+.menu{
+  position : relative;
+  display: flex;
+  justify-content: space-between;
+  background-color: #15023d;
+  height: 70px;
+  width: 100%;
+}
+.menu ul{
+  color: white;
+  align-items: center;
+  float: right;
+}
+.menu ul li {
+  display: inline-block;
+ 
+  font-size: 20px;
+  margin : 0 10px;
+  line-height: 80px;
+  
+}
+.menu a{
+  color: white;
+}
+a.active{
+  color: rgb(83, 200, 221);
+  transition: .5s;
+
+}
+a:hover{
+  color: rgb(25, 235, 182) !important;
+  text-decoration: none;
+}
+
+
+.logo {
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+  color: white;
+  padding: 0 100px ;
+  line-height: 80px;
+}
+
+
+
 a{
   text-decoration: none;
   color: #fff;
@@ -39,73 +84,14 @@ a{
   transition: all 0.3;
 }
 
-#nav-bar{
-background: skyblue;
-overflow: auto;
-}
-/* for the external pages*/
-#navbar h1{
-  float:left;
-  padding-top:20px;
-}
-#navbar{
-background: skyblue;
-overflow: auto;
-}
-#navbar ul{
-  list-style: none;
-  float:right;
-}
 
-#navbar ul li{
-  float:left;
-}
-#navbar ul li a{
-  display:block;
-  padding: 20px;
-  text-align: center;
-  transition: all 0.5s;
-} 
-
-#navbar ul li a:hover,
-#navbar ul li a.current{
-  background: #becfe0;
-  transition: all 0.5s;
-}
-
-/*for the external pages*/
-
-#nav-bar h1{
-  float:left;
-  padding-top:20px;
-}
-#nav-bar ul{
-  list-style: none;
-  float:right;
-}
-
-#nav-bar ul li{
-  float:left;
-}
-#nav-bar ul li a{
-  display:block;
-  padding: 20px;
-  text-align: center;
-  transition: all 0.5s;
-} 
-
-#nav-bar ul li a:hover,
-#nav-bar ul li a.current{
-  background: #becfe0;
-  transition: all 0.5s;
-}
 
 /*showcase*/
 #showcase{
   /*image*/
-  background-color: rgb(193, 233, 240);
+  background-color: rgb(35, 166, 189);
   height: 400px;
-  color: #75cae1;
+  color: #1797bb;
   
 }
 
@@ -130,27 +116,10 @@ overflow: auto;
   transition: all 0.3s;
 }
 
-/* about section*/
-.about{
-  height: 350px;
-  margin-top: 40px;
-  background-color: #c9eaf4;
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-.about h3{
-  width: 100%;
-  border-bottom: 2px solid #ddd;
-  font-size: 30px;
-}
 
-.about h3 span{
-  background: #ddd;
-  padding: 10px 22px;
-  color: #333;
-  text-align: center;
-  display: inline-block;
-}
+
+
+
 
 /* services*/
 .services{

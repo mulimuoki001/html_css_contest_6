@@ -34,8 +34,14 @@ body {
   .menu a{
     color: white;
   }
-  a.active,a:hover{
+  
+  a.active{
     color: rgb(83, 200, 221);
+    transition: .5s;
+  
+  }
+  a:hover{
+    color: rgb(25, 235, 182);
   }
   .logo {
     font-family: "Lobster", cursive;
