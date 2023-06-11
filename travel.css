@@ -208,3 +208,10 @@ padding-top: 10px;
   text-align: center;
   padding: 10px 10px;
 }
+@media screen and (max-width: 700) {
+  .karibu {
+      
+      font-size: 10px;
+      display: block;
+  }
+}

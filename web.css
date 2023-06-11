@@ -7,7 +7,6 @@
 }
 .header {
   display: flex;
-  justify-content: space-between;
 
   min-height: 950px;
   background-image: url("pictures/img25.jpeg");
@@ -15,7 +14,7 @@
   background-repeat: no-repeat;
   image-rendering: pixelated;
   max-width: 1440px;
-  
+
   background-color: rgb(52, 141, 135);;
 }
 .main {
@@ -25,28 +24,29 @@
   top: 950px;
   right: 0;
   left: 0;
-  
+
 }
 .menu{
   position : relative;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: flex-end;
   background-color: #15023d;
   height: 70px;
   width: 100%;
 }
 .menu ul{
-  color: white;
+  display: flex;
   align-items: center;
-  float: right;
+  margin-left: auto;
 }
 .menu ul li {
   display: inline-block;
- 
+
   font-size: 20px;
   margin : 0 10px;
   line-height: 80px;
-  
+
 }
 .menu a{
   color: white;
@@ -71,22 +71,16 @@ a:hover{
 }
 label #btn,
 label #cancel {
-  
+  z-index: 3;
   color: white;
   font-size: 30px;
-  float: right;
   line-height: 80px;
   cursor: pointer;
-  margin-right: 40px;
-  display: none;
-}
-#check{
-  display: none;
 }
 .main_part {
   position: absolute;
   width: 350px;
- 
+
   align-items: center;
   left: 250px;
   top:0;
@@ -102,7 +96,7 @@ label #cancel {
   white-space: nowrap;
   color: #15023d;
   align-items: center;
-  
+
   border: none;
   letter-spacing: 10px;
   text-align: center;
@@ -122,21 +116,20 @@ label #cancel {
   letter-spacing: 10px;
   text-align: center;
 }
-@media (max-width: 1181px) {
-  nav .logo{
-    left:8%
+@media screen and (max-width: 700px) {
+  .karibu {
+      align-items: center;
+      font-size: 30px;
+      display: block;
+      margin-left: 20px;
   }
-}
-@media (max-width: 944px) {
-  nav .logo{
-    left:6%
-    top: 10px
-    width: 130px
+  .header img{
+      display: none;
+
   }
-  .menu ul li {
-     
-    font-size: 14px;
-   
-    
+  .aims p{
+    margin-right: 10px;
+    justify-content: center;
+    text-align: center;
   }
 }
