@@ -51,10 +51,14 @@
 .menu a{
   color: white;
 }
-a.active,a:hover{
+a.active{
   color: rgb(83, 200, 221);
   transition: .5s;
 
+}
+a:hover{
+  color: rgb(25, 235, 182) !important;
+  text-decoration: none;
 }
 
 
@@ -65,7 +69,20 @@ a.active,a:hover{
   padding: 0 100px ;
   line-height: 80px;
 }
-
+label #btn,
+label #cancel {
+  
+  color: white;
+  font-size: 30px;
+  float: right;
+  line-height: 80px;
+  cursor: pointer;
+  margin-right: 40px;
+  display: none;
+}
+#check{
+  display: none;
+}
 .main_part {
   position: absolute;
   width: 350px;
@@ -104,4 +121,22 @@ a.active,a:hover{
   border: none;
   letter-spacing: 10px;
   text-align: center;
+}
+@media (max-width: 1181px) {
+  nav .logo{
+    left:8%
+  }
+}
+@media (max-width: 944px) {
+  nav .logo{
+    left:6%
+    top: 10px
+    width: 130px
+  }
+  .menu ul li {
+     
+    font-size: 14px;
+   
+    
+  }
 }
