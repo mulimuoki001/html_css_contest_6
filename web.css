@@ -116,20 +116,3 @@ label #cancel {
   letter-spacing: 10px;
   text-align: center;
 }
-@media screen and (max-width: 700px) {
-  .karibu {
-      align-items: center;
-      font-size: 30px;
-      display: block;
-      margin-left: 20px;
-  }
-  .header img{
-      display: none;
-
-  }
-  .aims p{
-    margin-right: 10px;
-    justify-content: center;
-    text-align: center;
-  }
-}
