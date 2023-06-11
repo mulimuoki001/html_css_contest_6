@@ -2,12 +2,16 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: skyblue;
-  }
+    background-color:  rgb(52, 141, 135);
+      }
   .about
   
   h1 {
     text-align: center;
+    }
+
+  h1.zanzibar{
+    color: black;
   }
   
   .team-members {
@@ -34,12 +38,14 @@ body {
   h2 {
     margin: 0;
     text-align: left;
+    color: black;
   }
   
   p {
     margin: 0;
     font-style: normal;
     text-align: justify;
+    color: white;
   }
   
   span{
@@ -71,3 +77,5 @@ body {
 .team{
     text-align: center;
 }
+
+
