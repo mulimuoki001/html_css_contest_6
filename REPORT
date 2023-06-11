@@ -1,0 +1,110 @@
+Introduction and project overview
+
+ZanziBliss is an innovative website that aims to connect locals, ex-pats, and tourists with a wide range of services in travel and entertainment within the enchanting island of Zanzibar. The platform facilitates exploring different services and a support form users can access to submit their concerns.
+
+
+The main goal is to provide a hub where users can discover various services available in Zanzibar. From looking for accommodation, transportation, and adventure activities to cultural events, ZanziBliss is the go-to resource for all needs. The platform also aims to enhance convenience by offering a user-friendly interface enabling quick and efficient searches. It also promotes transparency by featuring reviews from fellow users, fostering trust and credibility.
+
+
+The scope of ZanziBliss includes accommodation booking and transport services like airport transfers. Information on nightlife venues, water sports like sea diving, and food places is provided, ensuring a comprehensive range of options for diverse interests.
+
+
+Our target audience consists of locals, tourists, and ex-pats. Locals can use the website to discover new places and services. Ex-pats rely on ZanziBliss to stay updated on the latest happenings and ease navigation on the island. Tourists use the platform to plan their travels, find suitable accommodations, book experiences and enjoy their stay in Zanzibar.
+
+
+Usage and implementation of CSS 
+
+In developing the website design, we used various CSS properties and selectors that we learned this term. Properties were used to style multiple elements within the webpage. Our CSS code utilized a combination of element selectors, class selectors, and I.D. selectors. The application of selectors includes:
+
+1. The universal selector(*) was used to set the margin, padding, box-sizing, and font family properties for all elements to ensure a consistent base styling.
+
+2. Class selectors. These were used to select elements based on elements' class attribute values. For example, the inner carousel simultaneously used the same style for different image elements. This is used by adding a .before the class. 
+
+3. The id selectors. When we were targeting only one element, id selectors came in handy. #button was used to target button elements with the id button. 
+
+4. The .container class targeted style containers.
+
+CSS properties applied include:
+1. Margin: Sets outer spacing of elements.
+2. Padding: Sets the inner spacing of components.
+3 Box-sizing: Specifies box model used for sizing and layout.
+4. Font-family: Defines preferred font.
+5. Width: Sets the width of an element.
+6. Color: Sets the color of text and other elements.
+7. Display: Defines how an element is displayed. Flex was used throughout for consistency.
+8. Justify content: Aligns flex items along the cross-axis.
+9. Background color: Sets the background color.
+10. Border: Sets border properties.
+11. Text transform Controls capitalization.
+12. Font size: Sets the scope.
+13. Border radius: used in images to specify roundness
+14. Font-weight: Specifies the thickness of the font. 
+
+
+Usage and implementation of HTML
+
+After learning HTML this term, we used it to structure content on our ZanziBliss webpage. We utilized HTML elements and semantic tags and adhered to proper document structure.
+
+For a proper document structure, our HTML codes follow a logical structure:
+1. <!DOCTYPE html> This was placed at the beginning of all our HTML files to specify that the document type is HTML5.
+<html lang=" en"> Indicates that the content is in English.
+2.<head> Contains meta-information and external resources used by ZanziBliss.Under this:
+       		<link> Imports CSS from the CSS file.
+     	<meta>Sets character encoding, compatibility mode, and viewport settings for the webpage.
+  	 <title> Specifies the title of webpage; ZanziBliss.
+       </head> Marks the end of the head.
+ 4. <body> represents the main content of the webpage.
+           	<header> Defines header section containing the logo and navigation menu.
+                  <nav> navigation section.
+                 <ul> Represents an unordered list of navigation links.
+                 <li> Defines individual list items.
+                 <a> Creates hyperlinks to our different sections of the webpage: Travel, Entertainment, About us, and Support section.
+
+HTML Best Practices Used:
+
+.Semantics tags such as <h1>, <p>, <ul>, <li>, <img>, <q>, <button> were used.
+
+.We used sections to organize content into meaningful blocks for easier working.
+
+.Our codes adhere to indentation and formatting conventions, enhancing code readability and maintainability.
+
+.External CSS codes are linked to our HTML document. 
+
+Making a responsive website
+This was the most dificult task and we managed but for some specific sections of the website suc as the contact us page and the about us page.
+
+In our codes,The provided CSS code on our github demonstrates a responsive design approach that adjusts the layout and appearance of elements based on the width of the viewport. By using media queries, these CSS rules enabled our website layout and elements to adapt to different screen sizes. The adjustments made to the positioning, size, and font ensure a better user experience and readability on devices with smaller screens.
+
+
+Conclusion
+
+In conclusion, the creation of the zanziBliss website has been a success. Effective teamwork and collaboration helped us develop this visually appealing and engaging website. We created the structure of our website using HTML and enhanced the website aesthetic with CSS. 
+
+Our team ensured proper document structure by carefully selecting HTML elements and utilizing semantic tags. We are proud to acknowledge that even as beginners, we surpassed our expectations and learned new things through each other. This project does not only end here, but we will expand and throw it to the world.
+
+
+Challenges faced
+
+We encountered challenges along the way. One challenge was how to make the website responsive. Our knowledge of this sector was minimal, and we had sweated enough before making it responsive throughout the website.
+
+Another challenge we faced was on working on the CSS file. Knowing what font to use, how to design each sector, and blending colors was a struggle for most of us. It took teamwork to ensure that we liked the designs and that each team member understood what they were doing.
+
+
+Lessons learned
+.Testing severally was vital. This is because testing helped us identify and locate the problems for fixing.
+
+.Teamwork. As a team, we learned that working together solved our problems and enabled a vast pool of ideas to make the website practical and visually appealing.
+
+.Paying attention to details and structure. We also learned to align our work well and put in all the details for easier tracking and understanding.
+
+
+Recommendations to improve the website
+
+ 1. Updating content regularly: Updating content will ensure that information is always accurate and current.
+
+2. Implementing a search functionality: this is to allow users to quickly search for specific services instead of searching for them through all the web pages.
+
+3. Include ratings: The testimonials can have ratings so as to encourage new users.
+
+4. Incorporating social media integration: Facebook, Instagram, and Twitter links can be added to enable users to share and tag the website on their preferred social platforms. This will help expand the website's reach as social media grows and information gets there faster.
+
