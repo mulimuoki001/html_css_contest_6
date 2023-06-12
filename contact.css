@@ -1,4 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
 body {
+    font-family: Arial, sans-serif;
+    
+    
+  }
+  .menu{
+    position : relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: #15023d;
+    height: 70px;
+    width: 100%;
+  }
+  .menu ul{
+    color: white;
+    align-items: center;
+    float: right;
+  }
+  .menu ul li {
+    display: inline-block;
+   
+    font-size: 20px;
+    margin : 0 10px;
+    line-height: 80px;
+    
+  }
+  .menu a{
+    color: white;
+  }
+  a.active,a:hover{
+    color: rgb(83, 200, 221);
+    transition: .5s;
+  
+  }
+  
+  
+  .logo {
+    font-family: "Lobster", cursive;
+    font-size: 30px;
+    color: white;
+    padding: 0 100px ;
+    line-height: 80px;
+  }
+  
+  
+  h1 {
+    margin-bottom: 20px;
+   margin-top: 20px;
+    color: #333;
+    text-align: center;
+  }
+  p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    top: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  input[type="submit"]:focus {
+    outline: none;
+  }
+  
+  textarea {
+    height: 150px;
+    resize: vertical;
+  }
+
+  body {
     font-family: Arial, sans-serif;
     background-color: rgb(52, 141, 135);
     padding: 20px;
@@ -60,4 +172,5 @@ body {
     height: 150px;
     resize: vertical;
   }
+
   

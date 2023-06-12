@@ -5,10 +5,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif';
     
 }
-.main {
-    background-color: rgb(52, 141, 135);
-    background-size: cover;
-}
+
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
     width: 70%;

@@ -1,8 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 20px;
+   width: 100%;
     background-color: skyblue;
+  }
+  .menu{
+    position : relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: #15023d;
+    height: 70px;
+    width: 100%;
+  }
+  .menu ul{
+    color: white;
+    align-items: center;
+    float: right;
+  }
+  .menu ul li{
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    margin : 0 10px;
+    line-height: 80px;
+  }
+  .menu a{
+    color: white;
+  }
+  a.active,a:hover{
+    color: rgb(83, 200, 221);
+  }
+  .logo {
+    font-family: "Lobster", cursive;
+    font-size: 30px;
+    color: white;
+    padding: 0 100px ;
+    line-height: 80px;
   }
   .about
   
@@ -14,6 +54,7 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    margin-bottom: 100px;
   }
   
   .member {
@@ -33,7 +74,8 @@ body {
 
   h2 {
     margin: 0;
-    text-align: left;
+    text-align: center;
+    margin-top: 30px;
   }
   
   p {
@@ -59,7 +101,7 @@ body {
 
   p.zanzibar{
     padding: 10px ;
-    margin-right: 50%;
+    margin-right: 300px;
     }
 
 .about-us{
