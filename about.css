@@ -8,9 +8,10 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-   width: 100%;
-    background-color: skyblue;
+    padding: 20px;
+    background-color:  rgb(52, 141, 135);
   }
+
   .menu{
     position : relative;
     display: flex;
@@ -50,21 +51,26 @@ body {
     padding: 0 100px ;
     line-height: 80px;
   }
+
   .about
   
   h1 {
     text-align: center;
   }
+
+  h1.zanzibar{
+    color: black;
+  }
   
-  .team-members {
+  .team_members {
     display: flex;
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 100px;
   }
   
-  .member {
-    text-align: center;
+  .members {
+    text-align: justify;
     margin: 0 20px;
   }
   
@@ -80,7 +86,8 @@ body {
 
   h2 {
     margin: 0;
-    text-align: center;
+    text-align: left;
+    color: black;
     margin-top: 30px;
   }
   
@@ -88,10 +95,14 @@ body {
     margin: 0;
     font-style: normal;
     text-align: justify;
+    color: white;
+    display: inline-block;
   }
   
   span{
     color: white;
+    font-family: "Lobster", cursive;
+    font-size: 30px;
   }
 
   div.zanzibar{
@@ -118,4 +129,58 @@ body {
 
 .team{
     text-align: center;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 600px) {
+  img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 2px;
+    margin-right: 50px;
+  }
+  
+  .logo {
+    font-family: "Lobster", cursive;
+    font-size: 20px;
+    color: white;
+    padding: 0 100px ;
+    line-height: 40px;
+  }
+
+  div.team_members{
+    display: inline-block;
+  }
+
+  p.zanzibar{
+    padding: 10px ;
+    margin-right: 150px;
+    text-align: left;
+    margin-left: 0;
+    }
+
+  div.zanzibar{
+      display: inline-block;
+      height: 100px;
+      width: 80%;
+    
+    }
+  
+    .menu{
+      position : relative;
+      display: inline;
+      justify-content: space-between;
+      background-color: #15023d;
+      height: 70px;
+      width: 100%;
+}
+.menu ul{
+  color: white;
+  align-items: center;
+  float: right;
+  display: block;
+}
 }
